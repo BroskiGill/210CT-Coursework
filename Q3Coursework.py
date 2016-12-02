@@ -1,3 +1,13 @@
+##Pseudocode
+## highest_Perfect_Square(n)
+     
+## x<-n
+## while TRUE
+##     IF X^<=N
+##        RETURN "THE number of" n " and "closest perfect square is" #x^2
+##     ELSE
+##        X<-X-1
+
 def highest_Perfect_Square(n):
     """ This function will return the highest perfect
         square of number that is given"""
