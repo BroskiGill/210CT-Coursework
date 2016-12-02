@@ -23,8 +23,10 @@ class List(object):
             self.tail=x
     def remove(self,n):
         if n.prev !=None:
+            #
             n.prev.next =n.next
         else:
+            #
             l.head =n.next
         if n.next!=None:
             n.next.prev =n.prev
