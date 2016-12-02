@@ -16,7 +16,9 @@ def removeVowels(word):
     if word=="":
         return removeVowels
     else:
+        #Checking each elements in word
         for i in word:
+            #Checking each element in vowels
             if i in vowels:
                 word=word.replace(i,"")
         return word
