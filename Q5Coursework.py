@@ -46,5 +46,5 @@
 ##a<-matrixSub(e)                                                                    #1               
 ## PRINT a                                                                           #1
 ## bigOtotal<- 25+6n+3n^2
-## The big O notation of this is 
+## The big O notation of this is code is n^2
 
