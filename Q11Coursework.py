@@ -23,12 +23,13 @@ class List(object):
             self.tail=x
     def remove(self,n):
         if n.prev !=None:
-            #
+            #deletes node if its needs to be
             n.prev.next =n.next
         else:
-            #
+            #if node has one child set it to parent
             l.head =n.next
         if n.next!=None:
+            #node aboves needs to be deleted
             n.next.prev =n.prev
         else:
             l.tail = n.prev
