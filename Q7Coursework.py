@@ -7,7 +7,7 @@ import math
 ##      ELSE IF x mod y=0
 ##         RETURN n,"is not a prime number"
 ##      ELSE
-##         RETURN checkPrimeNumber(x,y-10
+##         RETURN checkPrimeNumber(x,y-10)
 ##    RETURN  checkPrimeNumber(n,round(SquareRoot(n))
 ##
 ## UserInput<- INPUT "Enter a number to check whether it is a prime number: "
