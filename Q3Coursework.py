@@ -18,7 +18,7 @@ def highest_Perfect_Square(n):
         if x**2<=n:
             return("The number "+str(n) +" closest perfect square is "+str((x**2)))
 
-        #returns back to functions
+        #decreases the x value by 1 and returns back to the function
         
         else:
             x=x-1
