@@ -34,15 +34,19 @@ def postorder(tree):
   
 
 def in_order(tree):
+    #empty stack
     s=[]
     node = tree
     while s or node!= None:
         if node!=None:
+            #push node to the left
             s.append(node)
             node=node.left
         else:
+            #deletes the nodes in the stack
             node=s.pop()
             print(node.value)
+            #push node to the right
             node=node.right
             
             
