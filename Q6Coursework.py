@@ -19,11 +19,13 @@ def reverseString(s):                                                       #1
     countWord= len(s)                                                       #1
 
     if countWord ==0:                                                       #1
-     #returns back to the functions 
+     #returns empty string 
         return str("")                                                      #1
     else:       
+        #Takes the first letter and puts it in the end of the array#
         return reverseString(s[1:]) + str(s[0])+" "                         #1
 userInput=input("Please enter words to be reversed: ")                      #1
+#Splits each array
 print(reverseString(userInput.split(" ")))                                  #1
 # formula=6
 #This means the Big O notation is O(1)
