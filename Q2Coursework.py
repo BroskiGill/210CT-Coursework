@@ -4,11 +4,13 @@ def factorial_trailing_zero(array):
 
     multiple = 1
     five=0
-
+         #checking all elements in array
     for i in range(array):
+         #Calculates the factorial number
         multiple=multiple*(i+1)
 
         for j in range(2,array+1):
+            #calculates the trailing numbers of zeros
 
             while j>0:
                 if j %5==0:
