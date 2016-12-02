@@ -26,4 +26,4 @@ def reverseString(s):                                                       #1
 userInput=input("Please enter words to be reversed: ")                      #1
 print(reverseString(userInput.split(" ")))                                  #1
 # formula=6
-#This means the Big O notation is 1
+#This means the Big O notation is O(1)
