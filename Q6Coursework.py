@@ -7,7 +7,7 @@
 ##  ELSE
 ##      RETURN reverseString s[1:] + s[0]+ " "
 ##userInput<-INPUT "Please enter words to be reversed: "
-##PRINT reverseString(userInput.SPLIT(" ")
+##PRINT reverseString(userInput.SPLIT(" "))
 
 
 
