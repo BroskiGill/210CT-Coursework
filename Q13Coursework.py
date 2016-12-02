@@ -1,3 +1,25 @@
+##Pseudocode
+## graph<-{0: [1,5,2],
+##         1: [0,2,4],
+##         2: [1,0,3],
+##         3: [2,],
+##         4: [1,],
+##         5: [0,],
+##}
+##  addNode(graph,node)
+##     IF node NOT IN Graph
+##         graph[node]<- emptyList
+
+##  addEdge(graph,node1,node2)
+##     IF node1 IN graph
+##         graph[node1].push(node2)
+##         graph[node2].push(node1)
+##     ELSE:
+##         graph[node1]<-[node2]
+##         graph[node2].push(node1)
+## addNode(graph,7)
+## addEdge(graph,7,5)
+## PRINT graph
 graph = {0: [1,5,2],
          1: [0,2,4],
          2: [1,0,3],
